@@ -3,7 +3,6 @@ from typing import Final
 from pymongo import MongoClient, errors
 from Service.list_service import ListService
 
-#PRODUCTION_SERVER_IP: Final[str] = "mongodb://michelleNunes:oliver142112@cluster0.s7ja3.mongodb.net:27017/"+
 PRODUCTION_SERVER_IP: Final[str] = "mongodb://localhost:27017/"
 
 
