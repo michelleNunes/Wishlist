@@ -2,7 +2,7 @@
 
 ## Python version
 
-    >= Python 3.8 32 Bits version (always 32 bits version due MPS dependency)
+    >= Python 3.8 32 Bits version
 
 ## Python dependencies
 
