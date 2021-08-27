@@ -1,0 +1,5 @@
+numpy
+pymongo
+Flask==1.1.2
+flask_pymongo==2.3.0
+flask_sqlalchemy==2.4.1
