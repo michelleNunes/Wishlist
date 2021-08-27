@@ -16,59 +16,58 @@ It's need to change the PRODUCTION_SERVER_IP variable in Databse.database.py to 
 the database have the Database "Wishlist" and the Collections "client_list" and "list".
 Please create their in your cluster 
 
-##How to start
+## How to start
 You will execute the file below:
 
-    app.py
+    main.py
     
 and with your browser, you will send the urls below according to your needs:
     
-New Client
+### New Client
+< NAME> - Your Name
 
-'<NAME>'- Your Name
-  
-"<EMAIL>" - Your e-mail
+< EMAIL> - Your e-mail
     
     http://localhost:5000/create_new_client/<NAME>/<EMAIL>
 
-Delete Client
-If you want, you can delete your user
-  
-'<NAME>' - Your Name
-  
-'<EMAIL>' - Your e-mail
-    
-    URL: http://localhost:5000/delete_client/<NAME>/<EMAIL>
-   
-   
-Show the products
-  
-'<PAGE>' - represent the page number with the products
+### Delete Client
 
-    URL: http://localhost:5000/list_page/<PAGE>
+If you want, you can delete your user
+
+< NAME> - Your Name
+
+< EMAIL> - Your e-mail
     
-New Favorite List
+    http://localhost:5000/delete_client/<NAME>/<EMAIL>
+   
+   
+### Show the products
+
+< PAGE> - represent the page number with the products
+
+    http://localhost:5000/list_page/<PAGE>
+    
+### New Favorite List
 If you want, you can add a favorite list for your item
-  
-'<NAME>' - Your Name
-  
-'<ITEM>' - ID Item
+
+< NAME> - Your Name
+
+< ITEM> - ID Item
     
-    URL: http://localhost:5000/register_new_list/<NAME>/<ITEM>
+    http://localhost:5000/register_new_list/<NAME>/<ITEM>
     
-Add new item in your Favorite List
-  
-'<NAME>' - Your Name
-  
-'<ITEM>' - ID Item
+### Add new item in your Favorite List
+
+< NAME> - Your Name
+
+< ITEM> - ID Item
     
-    URL: http://localhost:5000/add_new_item/<NAME>/<ITEM>
+    http://localhost:5000/add_new_item/<NAME>/<ITEM>
     
-Delete an item in your Favorite List
-  
-'<NAME>' - Your Name
-  
-'<ITEM>' - ID Item
+### Delete an item in your Favorite List
+
+< NAME> - Your Name
+
+< ITEM> - ID Item
     
-    URL: http://localhost:5000/delete_item_list/<NAME>/<ITEM>
-'
+    http://localhost:5000/delete_item_list/<NAME>/<ITEM>
